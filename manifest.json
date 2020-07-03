@@ -1,0 +1,7 @@
+{
+    "name": "Network Demo",
+    "description": "This is a sample for API's available for Network",
+    "devtools_page": "devtools.html",
+    "manifest_version": 2,
+    "version": "2"
+}
