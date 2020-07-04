@@ -1,4 +1,4 @@
-alert("PanelJS Initialized")
+alert("Panel JS Initialized")
 
 chrome.devtools.network.onRequestFinished.addListener(request => {
   if( request.request.url.includes("appsflyer")) {
