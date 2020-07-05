@@ -1,8 +1,13 @@
 alert("Panel JS Initialized")
 
+var element = document.getElementById("data");
+alert(element); //this returns null - need to figure out why
+
 chrome.devtools.network.onRequestFinished.addListener(request => {
   if( request.request.url.includes("appsflyer")) {
-    alert(JSON.stringify(request));
+    var output = JSON.stringify(request);
+    alert(output);
+    element.innerHTML += output;
   }
   // request.getContent((body) => {
   //   alert(body);
