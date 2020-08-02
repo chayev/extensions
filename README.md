@@ -8,9 +8,9 @@
 
 Download this repository using one of the options below:
 * Terminal (requires Git) 
-  > git clone https://github.com/mibragimchayev/extensions.git
+  > git clone https://github.com/chayev/extensions.git
 * Terminal (requires wget) - make sure to unzip once downloaded.
-  > wget https://github.com/mibragimchayev/extensions/archive/master.zip
+  > wget https://github.com/chayev/extensions/archive/master.zip
 * Download by clicking the green **Code** button at the top, and select **Download Zip**. Make sure to unzip once downloaded.
 
 #### Install the extension
